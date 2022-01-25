@@ -1,0 +1,77 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main_box{
+    width: 900px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 0px;
+
+}
+#register{
+    width: 39%;
+    height: 400px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 5px;
+}
+#login{
+    width: 39%;
+    height: 400px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+h2{
+    text-decoration: underline;
+}
+.btn{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+}
+
+.success_main_box{
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+    width: auto;
+}
+
+.errors{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    height: auto;
+    width: auto;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 500px;
+    left: 290px;
+}
+p{
+    margin: 0px;
+}
